@@ -1,67 +1,83 @@
-<main>
-	<h1>Dorota Moravčíková</h1>
-	<p>Cognitive Scientist | AI Safety Researcher</p>
-	<p>d.moravcikova23@gmail.com | Amsterdam, Netherlands | <a href="https://www.linkedin.com/in/dorota-moravcikova/">LinkedIn</a></p>
-	<a href="/cv.pdf" download>Download PDF</a>
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
 
-	<h2>Education</h2>
+<html lang="en">
+	<head>
+		<BaseHead title={`CV — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Dorota Moravčíková</h1>
+			<p>Cognitive Scientist | AI Safety Researcher</p>
+			<p>d.moravcikova23@gmail.com | Amsterdam, Netherlands | <a href="https://www.linkedin.com/in/dorota-moravcikova/">LinkedIn</a></p>
+			<a href="/cv.pdf" download>Download PDF</a>
 
-	<h3>MSc Brain and Cognitive Sciences (incoming)</h3>
-	<p>University of Amsterdam | 09/2026 – 06/2028</p>
-	<p>Cognitive Science track. Admitted to a cohort of 20.</p>
+			<h2>Education</h2>
 
-	<h3>Bachelor of Science: Psychology & Neuroscience</h3>
-	<p>Leiden University, Netherlands | 2022 – 2025</p>
-	<p>Graduated Cum Laude with Honours. Thesis: Dual-Process Study of Mind Attribution in Social Robotics.</p>
-	<p>Minor: NeuroAI: The Computing Brain, Leiden-Delft-Erasmus (LDE) Alliance — implemented biophysical models in Python simulating neuronal dynamics, action potentials, and emergent network behaviours.</p>
-	<p>Specialisations: Cognitive Neuroscience, Clinical Neuropsychology, Social and Organisational Psychology.</p>
-	<p>Honours Classes: Robots & Artificial Intelligence, Data Science, Argumentative and Rhetorical Strategies, Musicology.</p>
+			<h3>MSc Brain and Cognitive Sciences (incoming)</h3>
+			<p>University of Amsterdam | 09/2026 – 06/2028</p>
+			<p>Cognitive Science track. Admitted to a cohort of 20.</p>
 
-	<h3>Gymnázium Ružomberok</h3>
-	<p>09/2016 – 05/2020 | Ružomberok</p>
-	<p>Graduated with highest honours. GBE Foundation Scholar (2018–2019): selected as 1 of 3 students nationwide for a merit-based academic exchange in the United States.</p>
+			<h3>Bachelor of Science: Psychology & Neuroscience</h3>
+			<p>Leiden University, Netherlands | 2022 – 2025</p>
+			<p>Graduated Cum Laude with Honours. Thesis: Dual-Process Study of Mind Attribution in Social Robotics.</p>
+			<p>Minor: NeuroAI: The Computing Brain, Leiden-Delft-Erasmus (LDE) Alliance — implemented biophysical models in Python simulating neuronal dynamics, action potentials, and emergent network behaviours.</p>
+			<p>Specialisations: Cognitive Neuroscience, Clinical Neuropsychology, Social and Organisational Psychology.</p>
+			<p>Honours Classes: Robots & Artificial Intelligence, Data Science, Argumentative and Rhetorical Strategies, Musicology.</p>
 
-	<h2>Research: In Preparation</h2>
+			<h3>Gymnázium Ružomberok</h3>
+			<p>09/2016 – 05/2020 | Ružomberok</p>
+			<p>Graduated with highest honours. GBE Foundation Scholar (2018–2019): selected as 1 of 3 students nationwide for a merit-based academic exchange in the United States.</p>
 
-	<h3>Mechanistic Interpretability Research</h3>
-	<p>Representational Alignment Between LLM Activations and Human Neural Data | 05/2026 – Present</p>
-	<p>Collaboration with C. Berg (Reciprocal Research), R. Lulla and J. Kaplan (Brain and Creativity Institute, University of Southern California). Investigating correspondence between internal representations in large language models and fMRI-measured neural activity during affective and social processing, using representational similarity analysis; project in early design phase.</p>
+			<h2>Research: In Preparation</h2>
 
-	<h3>Affective Multi-Agent Modelling Simulation Research</h3>
-	<p>Good Agent Gone Bad: When 'Bad is Stronger Than Good' in the Memory of Generative Agents</p>
-	<p>D. Moravčíková, F. van der Veen, M. van Duijn. Abstract accepted, Behaviour (Brill), ed. Prof. dr. M.E. Kret. Short talk, European Human Behaviour and Evolution Association (EHBEA) 2026, Leiden. Manuscript in preparation for arXiv submission.</p>
+			<h3>Mechanistic Interpretability Research</h3>
+			<p>Representational Alignment Between LLM Activations and Human Neural Data | 05/2026 – Present</p>
+			<p>Collaboration with C. Berg (Reciprocal Research), R. Lulla and J. Kaplan (Brain and Creativity Institute, University of Southern California). Investigating correspondence between internal representations in large language models and fMRI-measured neural activity during affective and social processing, using representational similarity analysis; project in early design phase.</p>
 
-	<h3>Agentic Large Language Models Textbook</h3>
-	<p>Plaat, A., Van Duijn, M., Van der Meer, M., Van Stein, N., & Moravčíková, D. Forthcoming, Springer. Companion textbook for Agentic Large Language Models, LIACS, Leiden University. Contributed case study chapter on instability in generative agents, grounded in original simulation research.</p>
+			<h3>Affective Multi-Agent Modelling Simulation Research</h3>
+			<p>Good Agent Gone Bad: When 'Bad is Stronger Than Good' in the Memory of Generative Agents</p>
+			<p>D. Moravčíková, F. van der Veen, M. van Duijn. Abstract accepted, Behaviour (Brill), ed. Prof. dr. M.E. Kret. Short talk, European Human Behaviour and Evolution Association (EHBEA) 2026, Leiden. Manuscript in preparation for arXiv submission.</p>
 
-	<h2>Experience</h2>
+			<h3>Agentic Large Language Models Textbook</h3>
+			<p>Plaat, A., Van Duijn, M., Van der Meer, M., Van Stein, N., & Moravčíková, D. Forthcoming, Springer. Companion textbook for Agentic Large Language Models, LIACS, Leiden University. Contributed case study chapter on instability in generative agents, grounded in original simulation research.</p>
 
-	<h3>Junior Researcher & Teaching Assistant</h3>
-	<p>Leiden University's Institute of Advanced Computer Science (LIACS) | 10/2025 – Present | Leiden</p>
-	<p>Researching affective agent modelling within multi-agent social simulation environments, implementing valence-weighted episodic memory in generative agent architecture. Supervising bachelor and master theses in AI, Data Science, and Creative Intelligence & Technology programmes. Supporting faculty peer-review process (including ACL Rolling Review, Cognitive Systems Research).</p>
+			<h2>Experience</h2>
 
-	<h3>NeuroAI Curriculum Designer</h3>
-	<p>Erasmus University Medical Centre | 10/2025 – Present | Rotterdam</p>
-	<p>Developing computational neuroscience training materials for medical and research trainees, commissioned by Dr. Mario Negrello.</p>
+			<h3>Junior Researcher & Teaching Assistant</h3>
+			<p>Leiden University's Institute of Advanced Computer Science (LIACS) | 10/2025 – Present | Leiden</p>
+			<p>Researching affective agent modelling within multi-agent social simulation environments, implementing valence-weighted episodic memory in generative agent architecture. Supervising bachelor and master theses in AI, Data Science, and Creative Intelligence & Technology programmes. Supporting faculty peer-review process (including ACL Rolling Review, Cognitive Systems Research).</p>
 
-	<h3>Honorary Internship in Cognitive Neuroscience</h3>
-	<p>Leiden University — Faculty of Social and Behavioural Sciences | 02/2024 – 05/2024 | Leiden</p>
-	<p>Collected eye-tracking data for a study investigating the automaticity of attentional processing of threatening facial expressions under varying working memory loads. Supervisors: Dr. Mario C. Severo & Dr. Manon G. J. Mulckhuyse.</p>
+			<h3>NeuroAI Curriculum Designer</h3>
+			<p>Erasmus University Medical Centre | 10/2025 – Present | Rotterdam</p>
+			<p>Developing computational neuroscience training materials for medical and research trainees, commissioned by Dr. Mario Negrello.</p>
 
-	<h2>Skills</h2>
-	<p><strong>Programming:</strong> GitHub, Python (pandas, NumPy, SciPy, statsmodels, matplotlib), R</p>
-	<p><strong>Research Methods:</strong> Multi-agent social simulation (extending Park et al. 2023 architecture), computational memory modelling, psychometric testing (explicit and implicit measures; IAT design), behavioural experiments and eye-tracking data collection</p>
-	<p><strong>Project Management:</strong> Co-organised EHBEA 2026 conference. Co-managed a Leiden University team during the preparatory phase of the iGEM 2025 synthetic biology competition.</p>
+			<h3>Honorary Internship in Cognitive Neuroscience</h3>
+			<p>Leiden University — Faculty of Social and Behavioural Sciences | 02/2024 – 05/2024 | Leiden</p>
+			<p>Collected eye-tracking data for a study investigating the automaticity of attentional processing of threatening facial expressions under varying working memory loads. Supervisors: Dr. Mario C. Severo & Dr. Manon G. J. Mulckhuyse.</p>
 
-	<h2>Outreach</h2>
-	<p><strong>TEDxLeidenUniversity</strong>, 04/2025 — "Your Brain on AI: Use It or Lose It", a talk on the cognitive implications of GenAI.</p>
-	<p><strong>Speaker for LUMC AI-centred events</strong>, Leiden University Medical Centre — arguing for GenAI being a test of critical thought; speaking on the role of AI in research and diagnostics.</p>
-	<p><strong>Science writing</strong> — Substack, Medium, Leiden University. Writing on cognitive science-related topics for general audiences.</p>
+			<h2>Skills</h2>
+			<p><strong>Programming:</strong> GitHub, Python (pandas, NumPy, SciPy, statsmodels, matplotlib), R</p>
+			<p><strong>Research Methods:</strong> Multi-agent social simulation (extending Park et al. 2023 architecture), computational memory modelling, psychometric testing (explicit and implicit measures; IAT design), behavioural experiments and eye-tracking data collection</p>
+			<p><strong>Project Management:</strong> Co-organised EHBEA 2026 conference. Co-managed a Leiden University team during the preparatory phase of the iGEM 2025 synthetic biology competition.</p>
 
-	<h2>AI Safety</h2>
-	<p><strong>Project AI 2037</strong>, AI Safety Camp | 01/2026 – 04/2026 — group research project on failure modes in advanced AI systems. Contributed a case study analysing biological referential-misalignment analogies.</p>
-	<p><strong>Technical AI Safety</strong>, BlueDot Impact — completed BlueDot's intensive on alignment, interpretability, and evaluation of frontier AI systems.</p>
+			<h2>Outreach</h2>
+			<p><strong>TEDxLeidenUniversity</strong>, 04/2025 — "Your Brain on AI: Use It or Lose It", a talk on the cognitive implications of GenAI.</p>
+			<p><strong>Speaker for LUMC AI-centred events</strong>, Leiden University Medical Centre — arguing for GenAI being a test of critical thought; speaking on the role of AI in research and diagnostics.</p>
+			<p><strong>Science writing</strong> — Substack, Medium, Leiden University. Writing on cognitive science-related topics for general audiences.</p>
 
-	<h2>Languages</h2>
-	<p>English (C2), French (B1), Dutch (A2), Slovak & Czech (Native)</p>
-</main>
+			<h2>AI Safety</h2>
+			<p><strong>Project AI 2037</strong>, AI Safety Camp | 01/2026 – 04/2026 — group research project on failure modes in advanced AI systems. Contributed a case study analysing biological referential-misalignment analogies.</p>
+			<p><strong>Technical AI Safety</strong>, BlueDot Impact — completed BlueDot's intensive on alignment, interpretability, and evaluation of frontier AI systems.</p>
+
+			<h2>Languages</h2>
+			<p>English (C2), French (B1), Dutch (A2), Slovak & Czech (Native)</p>
+		</main>
+		<Footer />
+	</body>
+</html>
